@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { ChangeEventHandler, useState } from "react";
 import { useRouter, useParams } from "next/navigation";
 import { Button, ScrollShadow, Textarea } from "@nextui-org/react";
 import { motion } from "framer-motion";
@@ -13,9 +13,8 @@ const ChatPage: React.FC = () => {
     { query: string; response: string }[]
   >([]);
   const router = useRouter();
-  //   const { name, imageUrl } = useParams();
 
-  const handleChatInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+  const handleChatInputChange: ChangeEventHandler<HTMLInputElement> = (e) => {
     setChatInput(e.target.value);
   };
 

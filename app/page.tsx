@@ -18,9 +18,7 @@ export default function Home() {
       transition={{ duration: 0.5 }}
     >
       <div>
-        <h1 className="text-8xl font-bold text-gray-900 mb-6">
-          Civic Information Feed
-        </h1>
+        <h1 className="text-8xl font-bold text-gray-900 mb-6">Civic Compass</h1>
         <p className="text-2xl text-black mb-8">
           Discover the power of AI-driven civic engagement.
         </p>
