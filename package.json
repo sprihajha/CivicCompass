@@ -14,7 +14,7 @@
     "@react-three/fiber": "^8.15.19",
     "@types/three": "^0.162.0",
     "framer-motion": "^11.0.20",
-    "next": "14.2.10",
+    "next": "14.2.21",
     "react": "^18",
     "react-dom": "^18",
     "react-markdown": "^9.0.1",
