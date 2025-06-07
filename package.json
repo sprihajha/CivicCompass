@@ -19,7 +19,7 @@
     "react-dom": "^18.3.1",
     "react-markdown": "^9.0.1",
     "shadergradient": "^1.2.5",
-    "three": "^0.150.0"
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "@types/node": "^20",
